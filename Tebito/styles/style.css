@@ -12,43 +12,52 @@ body {
 nav {
     margin-top: -5px;
     margin-right: 10px;
+    padding: 10px;
 }
 
 #collapsibleNavbar {
     margin-right: 5px;
     text-align: right;
-
+    
 }
 
 .navbar-toggler {
     border: transparent;
-    padding: 5px;
+    padding: 2px;
 }
 
 a:link {
-    color: black;
+    color: darkolivegreen;
     background-color: transparent;
     text-decoration: none;
 
 }
 
+a:hover {
+    color: darkolivegreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a:visited {
-    color: sienna;
+    color: peru;
     background-color: transparent;
     text-decoration: none;
 
 }
 
 .header {
-    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-size: cover;
+}
 
+.header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 #etusivu {
@@ -60,35 +69,42 @@ a:visited {
 
 .otsikko {
     text-align: end;
-    padding-top: 105px;
+    padding-top: 110px;
     padding-right: 20px;
 
 }
 
-#esittely {
+.esittely {
     text-align: end;
-    padding-left: 40px;
+    padding-top: 5px;
     padding-right: 20px;
+    padding-left: 10px;
 }
 
 .otsikko2 {
     text-align: start;
-    padding-top: 105px;
+    padding-top: 100px;
     padding-left: 40px;
  
 }
 
-#tarina {
+.tarina {
     text-align: start;
     padding-left: 40px;
     padding-right: 20px;
-    padding-bottom: 35px;
+    
 }
 
 #rahi {
     max-width: 100%;
     height: auto;
   
+}
+
+.otayhteytta {
+    text-align: end;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 #galleria {
@@ -133,7 +149,6 @@ a:visited {
     margin-bottom: 10px;
 
 }
-
 
 #yhteystiedot {
     padding-left: 0;
@@ -183,24 +198,48 @@ footer {
         background-size: cover;
     }
 
+    nav {
+       
+        padding: 10px;
+    }
 
-    #etusivu .col-md-4 { 
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
-        height: auto;
-    } 
-
-    #etusivu .col-md-8 { 
-        margin: auto;
-        margin-bottom: 10px;
+    .navbar-collapse.collapse {
+        background-color: rgba(255, 235, 205, 0.736);
+        transition: background-color 0.3s ease-in-out;
+        padding: 5px;
     }
 
     #rahi {
         max-width: 100%;
         height: auto;
         
+    }
+
+    .otsikko {
+        text-align: center;
+        padding-top: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .esittely {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .otsikko2 {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .tarina {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .otayhteytta {
+        text-align: center;
+        padding: 5px;
     }
 
     #galleria .col-md-6 {
@@ -218,4 +257,4 @@ footer {
         height: auto;
 
     }
-}
+} 
