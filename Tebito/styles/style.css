@@ -19,10 +19,6 @@ nav {
     text-align: right;
 
 }
-.navbar.bg-collapsed {
-    background-color: blanchedalmond;
-    transition: background-color 0.3s ease-in-out;
-}
 
 .navbar-toggler {
     border: transparent;
@@ -187,13 +183,6 @@ footer {
         background-size: cover;
     }
 
-    #collapsibleNavbar {  
-        height: fit-content;
-        margin-top: 0px;
-        background-color: rgba(255, 235, 205, 0.832);
-        transition: background-color 0.3s ease-in-out;
-    
-    }
 
     #etusivu .col-md-4 { 
         display: block;
