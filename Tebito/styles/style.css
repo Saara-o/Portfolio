@@ -1,0 +1,232 @@
+body {
+    width: 100%;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+nav {
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+#collapsibleNavbar {
+    margin-right: 5px;
+    text-align: right;
+
+}
+.navbar.bg-collapsed {
+    background-color: blanchedalmond;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    border: transparent;
+    padding: 5px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: sienna;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.header {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-size: cover;
+
+}
+
+#etusivu {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: blanchedalmond;
+}
+
+.otsikko {
+    text-align: end;
+    padding-top: 105px;
+    padding-right: 20px;
+
+}
+
+#esittely {
+    text-align: end;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.otsikko2 {
+    text-align: start;
+    padding-top: 105px;
+    padding-left: 40px;
+ 
+}
+
+#tarina {
+    text-align: start;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+}
+
+#rahi {
+    max-width: 100%;
+    height: auto;
+  
+}
+
+#galleria {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: blanchedalmond;
+
+}
+#otsikko3 {
+    text-align: end;
+    padding-top: 105px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+#demo {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+    display: flex;
+    
+}
+
+.thumbnails {
+    padding-right: 40px;
+    width: 90%;
+    height: 90%;
+    max-width: 100%;
+    float: inline-end;
+
+}
+
+#sivupoyta {
+    margin-bottom: 15px;
+
+}
+
+#murasaki {
+    margin-bottom: 10px;
+
+}
+
+
+#yhteystiedot {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+
+#logo{
+    max-width: 100%;
+    padding-top: 85px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+#otsikko5 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.yhteystiedot {
+    margin-bottom: 25px;
+}
+
+#ig-linkki {
+    padding-top: 10px;
+    padding-bottom: 85px;
+}
+
+footer {
+    font-size: 14px;
+    margin: 5px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+
+}
+
+@media (max-width: 1199px) { 
+
+    .header {
+        max-width: 100%;
+        background-size: cover;
+    }
+
+    #collapsibleNavbar {  
+        height: fit-content;
+        margin-top: 0px;
+        background-color: rgba(255, 235, 205, 0.832);
+        transition: background-color 0.3s ease-in-out;
+    
+    }
+
+    #etusivu .col-md-4 { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: auto;
+    } 
+
+    #etusivu .col-md-8 { 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #rahi {
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+    #galleria .col-md-6 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto; 
+    }
+ 
+    #galleria .col-md-4 {
+        margin: auto;
+        display: block;
+        width: 50%;
+        height: auto;
+
+    }
+}
