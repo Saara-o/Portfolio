@@ -108,18 +108,21 @@ a:active {
 
 
 #galleria {
-    padding-left: 0;
-    padding-right: 0;
     padding-bottom: 0;
     padding-top: 0;
+    margin-top: 0;
     background-color: blanchedalmond;
 }
 
 #otsikko3 {
     text-align: end;
-    margin: 5px;
-    padding-top: 15px;
     padding-right: 60px;
+}
+
+#demo {
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: 10px;
 }
 
 .carousel-inner {
@@ -130,16 +133,18 @@ a:active {
     display: flex;
 }
 
-.thumbnails {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 0;
-    width: 100%;
+#img-thumbnails {
+    max-width: 100%;
     height: auto;
 }
 
+#Muji2 {
+    margin-left: 25px;
+}
 
-
+#Hyllyt2 {
+    margin-right: 25px;
+}
 
 #yhteystiedot {
     padding: 20px;
@@ -147,16 +152,14 @@ a:active {
 }
 
 #logo {
-    max-height: 180px;
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 210px;
+    padding-top: 93px;
 }
 
 #otsikko5 {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
@@ -167,6 +170,7 @@ a:active {
 }
 
 #ig-linkki {
+    padding-top: 20px;
     padding-bottom: 38px;
 }
 
@@ -189,7 +193,7 @@ footer {
         top: 100%; /* Below the navbar */
         right: 0;
         text-align: right;
-        background-color: rgba(254, 157, 20, 0.88);
+        background-color: rgba(254, 180, 49, 0.88);
     }
 
     .otsikko,
@@ -207,22 +211,25 @@ footer {
         padding-right: 15px;
         padding-left: 40px;
     }
-    
+
     .otayhteytta {
         padding-left: 5px;
         padding-right: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 
     #YT {
         font-size: small;
     }
 
+    #galleria {
+        padding-bottom: 30px;
+    }
+
     #otsikko3 {
         text-align: center;
-        padding-top: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 0px;
+        margin: 0px;
     }
 
 }
@@ -256,7 +263,8 @@ footer {
     }
 
     .otsikko,
-    .otsikko2 {
+    .otsikko2,
+    .otsikko3 {
         padding-left: 30px;
         padding-right: 30px;
         text-align: center;
@@ -272,8 +280,12 @@ footer {
         padding-bottom: 10px;
     }
 
-    #galleria {
-        padding-top: 47px;
+ 
+
+    .img-thumbnail {
+        margin-left: 20px;
+        margin-right: 20px;
+
     }
 
     #yhteystiedot {
