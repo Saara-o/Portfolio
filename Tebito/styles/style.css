@@ -156,6 +156,8 @@ a:active {
     justify-content: center;
     align-items: center;
     padding-top: 93px;
+    max-width: 240px;
+    height: auto;
 }
 
 #otsikko5 {
@@ -223,7 +225,7 @@ footer {
     }
 
     #galleria {
-        padding-bottom: 30px;
+        padding-bottom: 15px;
     }
 
     #otsikko3 {
@@ -280,17 +282,19 @@ footer {
         padding-bottom: 10px;
     }
 
- 
-
     .img-thumbnail {
         margin-left: 20px;
         margin-right: 20px;
-
     }
 
     #yhteystiedot {
         padding-top: 85px;
         padding-bottom: 85px;
+    }
+
+    #logo {
+        max-width: 190px;
+        widht: auto;
     }
 
 }
