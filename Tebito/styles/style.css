@@ -74,6 +74,8 @@ a:active {
     padding-right: 0;
     padding-bottom: 0;
     background-color: blanchedalmond;
+    max-height: 100vh; /* rajoittaa container-korkeuden */
+    overflow-y: auto; /* sallii pystysuuntaisen vierityksen */
 }
 
 .otsikko {
