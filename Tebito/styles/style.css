@@ -74,8 +74,6 @@ a:active {
     padding-right: 0;
     padding-bottom: 0;
     background-color: blanchedalmond;
-    max-height: 100vh; /* rajoittaa container-korkeuden */
-    overflow-y: auto; /* sallii pystysuuntaisen vierityksen */
 }
 
 .otsikko {
@@ -100,8 +98,8 @@ a:active {
 }
 
 #rahi {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: auto;
 }
 
 .otayhteytta {
